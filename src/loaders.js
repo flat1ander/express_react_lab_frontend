@@ -1,14 +1,13 @@
-const projectsURL = 'https://express-react-lab-1jj6.onrender.com/projects'
-const aboutURL = 'https://express-react-lab-1jj6.onrender.com/about'
+const URL = 'https://express-react-lab-1jj6.onrender.com'
 
 export const projectsLoader = async () => {
-    const response = await fetch(projectsURL + '/projects')
+    const response = await fetch(URL + '/projects')
     const projects = await response.json()
     return projects
 }
 
 export const aboutLoader = async () => {
-    const response = await fetch(aboutURL + '/about')
+    const response = await fetch(URL + '/about')
     const about = await response.json()
     return about
 }
