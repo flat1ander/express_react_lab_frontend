@@ -4,7 +4,7 @@ import '../components/Header.css';
 function Header(props) {
     return(
         <header>
-            <h1>Matt's Portfolio Page</h1>
+            <h1>Matt Lane - Software Portfolio</h1>
             <nav className='navStyle'>
                 <Link to='/' style={{textDecoration: 'none'}}>
                     <div className='navText'>HOME</div>
