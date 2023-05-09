@@ -6,14 +6,14 @@ function Header(props) {
         <header>
             <h1>Matt's Portfolio Page</h1>
             <nav className='navStyle'>
-                <Link to='/'>
-                    <div>HOME</div>
+                <Link to='/' style={{textDecoration: 'none'}}>
+                    <div className='navText'>HOME</div>
                 </Link>
-                <Link to='/about'>
-                    <div>ABOUT</div>
+                <Link to='/about' style={{textDecoration: 'none'}}>
+                    <div className='navText'>ABOUT</div>
                 </Link>
-                <Link to='/projects'>
-                    <div>PROJECTS</div>
+                <Link to='/projects' style={{textDecoration: 'none'}}>
+                    <div className='navText'>PROJECTS</div>
                 </Link>
             </nav>
         </header>
