@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'bodyFont';
+    src: url('../Roboto-Black.ttf') format('truetype');
+}
+
+.Footer {
+    display: inline;
+    color:darkslategray;
+    font-family: bodyFont;
+    font-size: large;
+}
+
+.copyright {
+    padding: 25px;
+}
+
+.email {
+    text-decoration: none;
+    color: darkslategray;
+}

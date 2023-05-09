@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import '../components/Header.css';
 
 function Header(props) {
     const navStyle = {
