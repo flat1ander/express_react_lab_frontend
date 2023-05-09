@@ -1,4 +1,5 @@
 import { useLoaderData } from "react-router-dom";
+import './About.css'
 
 function Projects(props) {
 
