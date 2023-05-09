@@ -18,10 +18,11 @@
     font-size: large;
     color:white;
     background-color: darkslategray;
+    cursor:pointer;
 }
 
 h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:muli;
 }
 
 

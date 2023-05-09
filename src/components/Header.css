@@ -10,5 +10,6 @@
 }
 
 .navText {
-    color:darkslategray
+    color:darkslategray;
+    font-weight: strong;
 }
